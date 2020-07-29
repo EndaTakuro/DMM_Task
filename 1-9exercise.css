@@ -8,12 +8,12 @@
 	display: block;
 	clear: both;
 }
-.head {
+header {
 	background-color: #FF9A4B;
 	height: 50px;
 	width: 100%;
 }
-.mainmenu {
+main {
 	margin: 50px auto;
 	width: 960px;
 }
@@ -22,6 +22,7 @@
 	width: 300px;
 	height: 300px;
 	padding: 10px;
+	position: relative;
 	float: left;
 }
 .content:nth-child(2) {
@@ -46,12 +47,20 @@
 	height: 150px;
 }
 .step-num {
+	padding: 3px;
 	position: absolute;
 	top: 0;
 	left: 0;
-	background
+	background-color: #FF9A4B;
+	color: #fff;
 }
-.foot {
+.title {
+	margin: 15px 0 5px;
+}
+.text {
+	font-size: 14px;
+}
+footer {
 	background-color: #AAAAAA;
 	height: 50px;
 	width: 100%;
